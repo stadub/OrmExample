@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace Data.Entity
 {
-    public class Villain : SuperHero
-    {
-        public virtual VillainClan Clan { get; set;}
-    }
-
-    public class VillainClan
+    public class City
     {
         public virtual int Id { get; set; }
-        public virtual List<string> Crimes { get; set; }
+        public virtual string Name { get; set; }
+        public virtual List<VillainClan> CityClans { get; private set; }
     }
-
-
 }
