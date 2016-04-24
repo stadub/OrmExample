@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\GothamHero.cs" />
+    <Compile Include="Entity\Villain.cs" />
     <Compile Include="Entity\HeroGender.cs" />
     <Compile Include="Entity\MetroCityHero.cs" />
     <Compile Include="Entity\SuperHero.cs" />

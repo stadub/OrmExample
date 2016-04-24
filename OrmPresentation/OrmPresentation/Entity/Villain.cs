@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace OrmPresentation.Entity
 {
-    public class GothamHero : SuperHero
+    public class Villain : SuperHero
     {
-        public string Clan { get; set; }
+
+        public VillainClan Clan { get; set;}
+    }
+
+    public class VillainClan
+    {
+        List<string> Crimes { get; set; }
     }
 }

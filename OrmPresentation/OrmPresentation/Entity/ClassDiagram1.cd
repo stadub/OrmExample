@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="OrmPresentation.Entity.GothamHero">
-    <Position X="1" Y="2.5" Width="1.5" />
+  <Class Name="OrmPresentation.Entity.Villain" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <AssociationLine Name="Clan" Type="OrmPresentation.Entity.VillainClan">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.331" Y="0.1" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
-      <FileName>Entity\GothamHero.cs</FileName>
+      <FileName>Entity\Villain.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="OrmPresentation.Entity.MetroCityHero">
-    <Position X="2.75" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Entity\MetroCityHero.cs</FileName>
-    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Clan" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="OrmPresentation.Entity.SuperHero">
     <Position X="1.75" Y="0.5" Width="1.5" />
@@ -21,10 +22,17 @@
       <FileName>Entity\SuperHero.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="OrmPresentation.Entity.HeroGender">
-    <Position X="4.5" Y="1.25" Width="1.5" />
+  <Class Name="OrmPresentation.Entity.VillainClan">
+    <Position X="4.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAgAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Villain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OrmPresentation.Entity.HeroGender">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAAAAABA=</HashCode>
       <FileName>Entity\HeroGender.cs</FileName>
     </TypeIdentifier>
   </Enum>

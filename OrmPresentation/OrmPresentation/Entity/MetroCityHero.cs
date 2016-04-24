@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace OrmPresentation.Entity
 {
-    public class MetroCityHero : SuperHero
+    public class Protagonist : SuperHero
     {
-        public string HomeStreet { get; set; }
+        public string SuperPower { get; set; }
     }
 }

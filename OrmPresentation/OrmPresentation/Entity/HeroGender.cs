@@ -8,6 +8,6 @@ namespace OrmPresentation.Entity
 {
     public enum HeroGender
     {
-        Unknown = 0, Men, Women, Alien
+        Unknown = 0, Men, Women
     }
 }
