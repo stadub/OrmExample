@@ -46,6 +46,7 @@
     <Compile Include="Entity\SuperHero.cs" />
     <Compile Include="Entity\SuperPower.cs" />
     <Compile Include="Entity\Villain.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
