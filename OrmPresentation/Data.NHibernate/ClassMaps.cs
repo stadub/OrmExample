@@ -19,7 +19,12 @@ namespace Data.NHibernate
         {
             Id(x => x.Id);
             Map(x => x.Name);
-            Map(x => x.Gender);
+            Map(x => x.Gender)
+                .CustomType("Data.Entity, HeroGender")
+                .Access.Property()
+                .Generated.Never()
+                .CustomSqlType("INTEGER")
+                .Not.Nullable();
         }
     }
     public class ProtagonistMap : ClassMap<Protagonist>
@@ -35,17 +40,6 @@ namespace Data.NHibernate
             });
         }
     }
-
-    public class VillainMap : ClassMap<Villain>
-    {
-        public VillainMap()
-        {
-            Id(x => x.Id);
-            Map(x => x.Name);
-            Map(x => x.Gender);
-        }
-    }
-
     public class VillainClanMap : ClassMap<VillainClan>
     {
         public VillainClanMap()
@@ -57,5 +51,15 @@ namespace Data.NHibernate
         }
     }
 
+    public class VillainMap : SubclassMap<Villain>
+    {
+        public VillainMap()
+        {
+            Table("Villain");
+            KeyColumn("Id");
+            Map(x => x.Name);
+            Map(x => x.Gender);
+        }
+    }
 
 }
