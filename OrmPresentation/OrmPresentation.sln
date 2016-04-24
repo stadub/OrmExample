@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.EF6", "Data.EF6\Data.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{03320BA0-BC2F-4546-A2D7-44A671AAE970}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.NHibernate", "Data.NHibernate\Data.NHibernate.csproj", "{31702E44-7453-4C7E-8EDE-45C8D798377B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{03320BA0-BC2F-4546-A2D7-44A671AAE970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03320BA0-BC2F-4546-A2D7-44A671AAE970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03320BA0-BC2F-4546-A2D7-44A671AAE970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31702E44-7453-4C7E-8EDE-45C8D798377B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31702E44-7453-4C7E-8EDE-45C8D798377B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31702E44-7453-4C7E-8EDE-45C8D798377B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31702E44-7453-4C7E-8EDE-45C8D798377B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
