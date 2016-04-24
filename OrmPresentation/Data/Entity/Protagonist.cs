@@ -8,6 +8,6 @@ namespace Data.Entity
 {
     public class Protagonist : SuperHero
     {
-        public string SuperPower { get; set; }
+        public SuperPower SuperPower { get; set; }
     }
 }

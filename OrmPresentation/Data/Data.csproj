@@ -42,8 +42,9 @@
   <ItemGroup>
     <Compile Include="Entity\City.cs" />
     <Compile Include="Entity\HeroGender.cs" />
-    <Compile Include="Entity\MetroCityHero.cs" />
+    <Compile Include="Entity\Protagonist.cs" />
     <Compile Include="Entity\SuperHero.cs" />
+    <Compile Include="Entity\SuperPower.cs" />
     <Compile Include="Entity\Villain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
