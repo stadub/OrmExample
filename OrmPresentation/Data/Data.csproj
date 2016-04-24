@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DDD\IUnitOfWorkFactory.cs" />
+    <Compile Include="DDD\IEntity.cs" />
+    <Compile Include="DDD\IUnitOfWork.cs" />
     <Compile Include="Entity\City.cs" />
     <Compile Include="Entity\HeroGender.cs" />
     <Compile Include="Entity\Protagonist.cs" />
@@ -47,7 +50,7 @@
     <Compile Include="Entity\SuperPower.cs" />
     <Compile Include="Entity\Villain.cs" />
     <Compile Include="Entity\VillainClan.cs" />
-    <Compile Include="IRepository.cs" />
+    <Compile Include="DDD\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,6 +9,7 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
 using NHibernate.Cfg;
+using NHibernate.Context;
 using NHibernate.Tool.hbm2ddl;
 
 namespace Data.NHibernate
@@ -58,6 +59,20 @@ namespace Data.NHibernate
         public static ISession OpenSession()
         {
             return SessionFactory.OpenSession();
+        }
+
+        private static readonly object lockObject = new object();
+        private static Configuration configuration;
+        private static ISessionFactory sessionFactory;
+
+
+
+        public static ISession GetSession()
+        {
+            if (CurrentSessionContext.HasBind(SessionFactory))
+                return SessionFactory.GetCurrentSession();
+
+            throw new InvalidOperationException("Database access logic cannot be used, if session not opened. Implicitly session usage not allowed now. Please open session explicitly through UnitOfWorkFactory.StartLongConversation method");
         }
     }
 }
