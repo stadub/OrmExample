@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrmPresentation.Entity
+namespace Data.Entity
 {
-    public class Protagonist : SuperHero
+    public enum HeroGender
     {
-        public string SuperPower { get; set; }
+        Unknown = 0, Men, Women
     }
 }
