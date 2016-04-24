@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.EF6
 {
-    internal class SuperHeroContext : DbContext
+    public class SuperHeroContext : DbContext
     {
         public DbSet<SuperHero> SuperHeroes { get; set; }
     }
