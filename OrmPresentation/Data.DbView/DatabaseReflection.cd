@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Table per Hierarchy">
+    <Position X="4.917" Y="0.562" Height="0.312" Width="1.283" />
+  </Comment>
+  <Comment CommentText="Table per Type">
+    <Position X="8.25" Y="0.5" Height="0.291" Width="1.065" />
+  </Comment>
+  <Comment CommentText="Table per Concrete Type ">
+    <Position X="11.396" Y="0.5" Height="0.354" Width="1.638" />
+  </Comment>
+  <Class Name="Data.Entity.SuperHero">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.Entity.Villain">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.Entity.Protagonist">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.DbView.DtabaseReflections.TablePerHierarchy.SuperHeroTable">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAQCAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DtabaseReflections\TablePerHierarchy\SuperHeroTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.DbView.DtabaseReflections.TablePerType.ProtagonistTable">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DtabaseReflections\TablePerType\ProtagonistTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.DbView.DtabaseReflections.TablePerType.SuperHeroTable">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DtabaseReflections\TablePerType\SuperHeroTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.DbView.DtabaseReflections.TablePerType.VillainTable">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DtabaseReflections\TablePerType\VillainTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.DbView.DtabaseReflections.TablePerConcreteType.ProtagonistTable">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DtabaseReflections\TablePerConcreteType\ProtagonistTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.DbView.DtabaseReflections.TablePerConcreteType.VillainTable">
+    <Position X="12.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DtabaseReflections\TablePerConcreteType\VillainTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

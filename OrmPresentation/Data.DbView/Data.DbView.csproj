@@ -40,9 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DtabaseReflections\SuperHeroDatabaseTph.cs" />
+    <Compile Include="DtabaseReflections\TablePerConcreteType\ProtagonistTable.cs" />
+    <Compile Include="DtabaseReflections\TablePerHierarchy\SuperHeroTable.cs" />
+    <Compile Include="DtabaseReflections\TablePerConcreteType\VillainTable.cs" />
+    <Compile Include="DtabaseReflections\TablePerType\ProtagonistTable.cs" />
+    <Compile Include="DtabaseReflections\TablePerType\SuperHeroTable.cs" />
+    <Compile Include="DtabaseReflections\TablePerType\VillainTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{03320ba0-bc2f-4546-a2d7-44a671aae970}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DatabaseReflection.cd" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

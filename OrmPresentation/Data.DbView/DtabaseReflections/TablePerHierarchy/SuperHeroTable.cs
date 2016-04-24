@@ -1,6 +1,8 @@
-namespace Data.Entity
+using Data.Entity;
+
+namespace Data.DbView.DtabaseReflections.TablePerHierarchy
 {
-    public class SuperHeroTph
+    public class SuperHeroTable
     {
         public SuperPower SuperPower { get; set; }
         public virtual int Id { get; set; }
