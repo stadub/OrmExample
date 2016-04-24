@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.NHibernate", "Data.NHi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.NHibernate.Migration", "Data.NHibernate.Migration\Data.NHibernate.Migration.csproj", "{8F14F825-8A41-4277-8C26-E5729F7C99DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.DbView", "Data.DbView\Data.DbView.csproj", "{B0017726-227A-4DAA-BDF6-F9AB88B904FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8F14F825-8A41-4277-8C26-E5729F7C99DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F14F825-8A41-4277-8C26-E5729F7C99DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F14F825-8A41-4277-8C26-E5729F7C99DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0017726-227A-4DAA-BDF6-F9AB88B904FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0017726-227A-4DAA-BDF6-F9AB88B904FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0017726-227A-4DAA-BDF6-F9AB88B904FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0017726-227A-4DAA-BDF6-F9AB88B904FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
